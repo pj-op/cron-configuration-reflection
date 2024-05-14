@@ -1,13 +1,22 @@
 package org.test.entity;
 
-import lombok.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.Id;
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
 import org.hibernate.Hibernate;
 import org.test.request.CommonRequest;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
-import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Setter

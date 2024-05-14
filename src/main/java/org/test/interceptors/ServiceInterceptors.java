@@ -5,8 +5,8 @@ import org.apache.logging.log4j.ThreadContext;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 @Slf4j
 public class ServiceInterceptors implements HandlerInterceptor {
